@@ -39,6 +39,11 @@ a {
     text-decoration: none;
 }
 
+button:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+}
+
 /* Navigation Bar */
 
 .container {
@@ -165,6 +170,11 @@ a {
     height: 170px;
     width: 170px;
     margin-bottom: 8px;
+}
+
+.box:hover {
+    transform: scale(1.05);
+    transition: transform 0.2s ease-in-out;
 }
 
 .box-text {
